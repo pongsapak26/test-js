@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+@font-face {
+  font-family: 'Supermarket';
+  src: url('/fonts/supermarket.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Supermarket', sans-serif;
+}
+
+.TT .splide__arrow.splide__arrow--prev {
+  background: url('/images/arrow-left.svg') no-repeat center;
+  width: 24px;
+  height: 24px;
+  top: -2rem !important;
+}
+.TT .splide__arrow.splide__arrow--next {
+  background: url('/images/arrow-right.svg') no-repeat center;
+  width: 24px;
+  height: 24px;
+  bottom: -2rem !important;
+}
