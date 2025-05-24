@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <div className="flex container mx-auto gap-2 items-center text-xs mt-4">
+    <div className="flex container px-6 lg:px-0 mx-auto gap-2 items-center text-xs mt-4 ">
       {/* โลโก้ซ้าย */}
       <img
         src="/images/SOne_index_logos.png"

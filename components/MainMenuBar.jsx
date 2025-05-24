@@ -37,8 +37,8 @@ export default function MainMenuBar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();
   return (
-    <div className="bg-black text-white container mx-auto px-6">
-      <div className="container mx-auto flex items-center justify-between py-2 px-6 md:px-0">
+    <div className=" text-white container mx-auto px-6 md:px-0">
+      <div className="w-full bg-black flex items-center justify-between py-2 px-6 md:px-4">
         {/* เมนูหลัก - Desktop */}
         <div className="hidden md:flex items-center gap-4 py-2 justify-center">
           {menuItems.map((item, index) => (
