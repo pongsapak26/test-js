@@ -28,11 +28,17 @@ body {
   background: url('/images/arrow-left.svg') no-repeat center;
   width: 24px;
   height: 24px;
-  top: -2rem !important;
+  top: -1.5rem !important;
 }
 .TT .splide__arrow.splide__arrow--next {
   background: url('/images/arrow-right.svg') no-repeat center;
   width: 24px;
   height: 24px;
-  bottom: -2rem !important;
+  bottom: -1.5rem !important;
+}
+.splide__track--nav > .splide__list > .splide__slide.is-active {
+  border: 3px solid #F05A28 !important;
+}
+.splide__arrow svg{
+  fill: #F05A28 !important;
 }

@@ -67,7 +67,7 @@ export default function NewsCarousel() {
   }, []);
 
   return (
-    <div className="border w-full border-b-4 border-orange-500 text-center">
+    <div className="border w-full border-b-2 border-orange-500 text-center h-full">
       {/* Header + Dot Navigation */}
       <div className="flex w-full p-2 items-center border-b border-orange-500 justify-between">
         <h2 className="text-xl font-semibold text-black">News & Events</h2>

@@ -78,7 +78,7 @@ export default function VerticalGallery() {
               <img
                 src={img}
                 alt={`Thumb ${i}`}
-                className="cursor-pointer border border-white hover:border-orange-500 transition rounded"
+                className="cursor-pointer hover:border-orange-500 transition rounded"
               />
             </SplideSlide>
           ))}

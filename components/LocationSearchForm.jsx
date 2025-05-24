@@ -7,14 +7,14 @@ export default function LocationSearchForm() {
   const { text } = useLanguage();
 
   return (
-    <div className="bg-[#F05A28] text-white text-sm">
+    <div className="bg-[#252525] text-white text-sm h-full">
       {/* หัวข้อ */}
-      <div className="p-2">
+      <div className="p-2 bg-[#F05A28]" >
         <h2 className="text-white text-xl font-semibold">{text.location_search_title}</h2>
       </div>
 
       {/* กล่องดำ */}
-      <div className="bg-[#252525] px-4 py-2 h-[180px] flex flex-col justify-between">
+      <div className=" px-4 py-2 flex flex-col justify-between ">
         {/* Dropdown */}
         <div className="space-y-2">
           <div className="flex items-center justify-between">

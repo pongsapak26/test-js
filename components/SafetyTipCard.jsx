@@ -2,7 +2,7 @@
 
 export default function SafetyTipCard() {
   return (
-    <div className="w-full max-w-xl mx-auto border border-orange-500 ">
+    <div className="w-full max-w-xl mx-auto border border-orange-500 h-full">
       {/* กล่องหัว + ตัวเนื้อหา */}
       <div className="flex">
         {/* ซ้าย: รูป background หัว */}
@@ -58,12 +58,12 @@ export default function SafetyTipCard() {
             placeholder="กรุณากรอกเบอร์มือถือ"
             className="p-1 text-sm w-full focus:outline-none"
           />
-          <button className="w-[23px] h-[23px]">
+          <button className="">
             <img
               src="/images/SOne_index_btgo.jpg"
               alt="go"
-              width={23}
-              height={23}
+              width={40}
+              height={40}
             />
           </button>
         </div>

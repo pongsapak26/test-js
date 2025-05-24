@@ -14,13 +14,13 @@ export default function Footer() {
       <div className="flex justify-between items-center bg-black text-white w-full p-3 rounded">
         <p>Copyright © 2014</p>
         <div className="flex flex-col md:flex-row items-start md:items-center">
-          <p className="border-b border-white pb-1 md:border-none"></p>
+          <p className="border-b border-white md:border-none">Supakorn Cherdcahi</p>
           <p className="hidden md:block mx-1">|</p>
           <a
-            href="mailto:"
+            href="mailto:yo-dew-yo@hotmail.com"
             className="hover:text-orange-500"
           >
-            
+            yo-dew-yo@hotmail.com
           </a>
         </div>
       </div>

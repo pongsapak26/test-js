@@ -14,10 +14,10 @@ export default function HomePage() {
   return (
     <div className="container mx-auto">
       <div className="grid grid-cols-12 gap-4">
-        <div className="col-span-12 lg:col-span-5">
+        <div className="col-span-12 lg:col-span-4 xl:col-span-3">
           <TireSearch />
         </div>
-        <div className="col-span-12 lg:col-span-7">
+        <div className="col-span-12 lg:col-span-8 xl:col-span-9">
           <VerticalGallery />
         </div>
         <div className="col-span-12 lg:col-span-12">

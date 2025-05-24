@@ -11,7 +11,7 @@ export default function NavBar() {
     <nav className="bg-white p-4 flex flex-col lg:flex-row items-center justify-between gap-4 container mx-auto">
       {/* Logo + Language */}
       <div className="flex items-center ">
-        <div className="relative w-60 h-24">
+        <div className="relative w-80 h-36">
           <Image
             src="/images/SOne_index_logo.png"
             alt="Logo"
@@ -28,19 +28,19 @@ export default function NavBar() {
         <div className="flex items-center gap-2 ml-auto">
           <LangSwitcher />
         </div>
-        <div className="flex items-center bg-orange-600 p-1 llg:ml-auto">
+        <div className="flex items-center bg-orange-600 px-[2px]">
           <input
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full p-2 text-sm border border-gray-300 focus:outline-none"
+            className="w-full p-1 text-sm border border-gray-300 focus:outline-none"
             placeholder="Search..."
           />
           <button className="w-10 h-10 flex items-center justify-center">
             <Image
               src="/images/SOne_index_btsearch.jpg"
-              width={23}
-              height={23}
+              width={40}
+              height={40}
               alt="Search"
             />
           </button>
