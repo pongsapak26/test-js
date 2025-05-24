@@ -70,7 +70,7 @@ export default function NewsCarousel() {
     <div className="border w-full border-b-4 border-orange-500 text-center">
       {/* Header + Dot Navigation */}
       <div className="flex w-full p-2 items-center border-b border-orange-500 justify-between">
-        <h2 className="text-xl font-semibold">News & Events</h2>
+        <h2 className="text-xl font-semibold text-black">News & Events</h2>
         <div className="flex space-x-2">
           {newsGroups.map((_, i) => (
             <button
@@ -111,7 +111,7 @@ export default function NewsCarousel() {
                     className="aspect-[16/9] w-full border-b-4 border-transparent group-hover:border-orange-500 object-cover"
                   />
                   <div className="p-2">
-                    <h3 className="text-sm group-hover:underline">
+                    <h3 className="text-sm group-hover:underline text-black">
                       {item.title}
                     </h3>
                   </div>
